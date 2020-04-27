@@ -12,10 +12,10 @@ const render = require("./lib/htmlRenderer");
 
 
 let dataEntry = true;
-// Here we create an additon array to store our team info
+//  Make an array to store our team info
 const teamMembers = [];
 
-// Main code to import user details and export
+// Get team details and export them
 
 const getEmployeeType = () => {
     return inquirer.prompt([
@@ -26,10 +26,6 @@ const getEmployeeType = () => {
             choices: ["Intern", "Engineer", "Manager", "Done"]
         }
     ])
-}
-
-const createTeam = () => {
-    console.log ("CreatingTeam");
 }
 
 const createManager = () => {
@@ -147,7 +143,7 @@ async function selectUserType(data) {
 }
 
 async function init() {
-    // We're going to loop this until the user selects done or an error occurs
+    // A loop until the user selects done or an error occurs
     while (dataEntry) {
         console.log (dataEntry);
         const employeeType = await getEmployeeType();
@@ -155,5 +151,5 @@ async function init() {
     }
 }
 
-// All variables and functions are created, now start the app.
+// Start the app!
 init();
