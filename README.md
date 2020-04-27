@@ -15,7 +15,7 @@ A Node CLI to enter information about employees.
 * [Final Product](#Final-Product)
 * [Author](#Author)
 
-## User-Story
+## User Story
 
 ```
 AS a Manager
