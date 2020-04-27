@@ -7,7 +7,7 @@ A Node CLI to enter information about employees.
 ## Table of Contents
 
 * [User Story](#User%20Story)
-* [Build Status](#Build%20Status)
+* [Build Status](#BuildStatus)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Built With](#Built%20with)
