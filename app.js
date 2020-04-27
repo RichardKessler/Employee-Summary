@@ -23,7 +23,7 @@ const getEmployeeType = () => {
             type: "list",
             name: "EmployeeType",
             message: "Please select the employee Type",
-            choices: ["Intern", "Engineer", "Manager", "Done"]
+            choices: ["Intern", "Engineer", "Manager", "Finished"]
         }
     ])
 }
@@ -120,24 +120,19 @@ const writeFile = () => {
 async function selectUserType(data) {
     switch (data.EmployeeType) {
         case ("Intern"):
-            console.log("Intern Selected");
             await createIntern();
             break;
         case ("Engineer"):
-            console.log("Engineer Selected");
             await createEngineer();
             break;
         case ("Manager"):
-            console.log("Manager Selected");
             await createManager();
             break;
-        case ("Done"):
-            console.log("Done creating users, building page");
+        case ("Finished"):
             dataEntry = false;
             writeFile();
             break;
         default:
-            console.log("You get an F");
             dataEntry = false;
     }
 }
