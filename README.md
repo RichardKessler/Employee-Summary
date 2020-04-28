@@ -60,3 +60,7 @@ The test results that needed to pass before production launch.
 
 The final product after all tests are passed and the application is run in the terminal.
 ![Alt Text](FinalEmployeeResult.gif)
+
+## Author
+
+* Richard Kessler - Full Stack Developer
