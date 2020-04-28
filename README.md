@@ -38,7 +38,7 @@ npm i
 
 ## Usage
 
-After you have installed the modules you can enter the command `npm run test` to run the testing scripts.  You can also enter `node app.js` to run the program in your terminal.
+After you have installed the modules you can enter the command `npm run test` to run the testing scripts.  You can also enter `node app.js` to run the program in your terminal.  Then open the newly created HTML file to view the webpage.
 
 ## Built With
 
@@ -54,3 +54,6 @@ After you have installed the modules you can enter the command `npm run test` to
 ## Results
 
 The test results that needed to pass before production launch.
+![Alt Text](EmployeeSummaryTest.gif)
+
+## Final Product
