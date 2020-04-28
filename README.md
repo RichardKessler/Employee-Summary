@@ -23,7 +23,7 @@ I WANT to crate a webpage to display my teams info
 SO THAT I can access their emails, github profiles, and see what schools our interns attended
 ```
 
-## Build-Status
+## Build Status
 
 Testing phase passed
 Production code pushed on March 27, 2020
@@ -32,3 +32,20 @@ Production code pushed on March 27, 2020
 
 To get started go to https://github.com/RichardKessler/Employee-Summary<br/>
 To run tests open the terminal and type 
+```
+npm i
+```
+
+## Usage
+
+After you have installed the modules you can enter the command `npm run test` to run the testing scripts.  You can also enter `node app.js` to run the program in your terminal.
+
+## Built With
+
+* HTML5
+* CSS3
+* JavaScript
+* Node.js
+* ES6
+* [Inquirer](https://www.npmjs.com/package/inquirer)
+* [Jest](https://www.npmjs.com/package/jest)
