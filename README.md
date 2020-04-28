@@ -57,3 +57,6 @@ The test results that needed to pass before production launch.
 ![Alt Text](EmployeeSummaryTest.gif)
 
 ## Final Product
+
+The final product after all tests are passed and the application is run in the terminal.
+![Alt Text](FinalEmoloyeeResult.gif)
