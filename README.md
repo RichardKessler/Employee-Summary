@@ -49,3 +49,8 @@ After you have installed the modules you can enter the command `npm run test` to
 * ES6
 * [Inquirer](https://www.npmjs.com/package/inquirer)
 * [Jest](https://www.npmjs.com/package/jest)
+* Visual Studio Code
+
+## Results
+
+The test results that needed to pass before production launch.
